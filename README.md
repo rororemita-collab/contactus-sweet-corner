@@ -1,4 +1,3 @@
-# contactus-sweet-corner
 <?php
 include "config.php";
 
@@ -81,7 +80,7 @@ if(isset($_POST['send'])){
         <h3>🕒 Working Hours</h3>
         <ul>
             <li>Saturday – Thursday: <span>08:00 AM – 10:00 PM</span></li>
-            <li>Friday: <span>02:00 PM – 10:00 PM</span></li>
+            <li>Friday - sunday: <span>02:00 PM – 10:00 PM</span></li>
         </ul>
     </div>
 
@@ -145,6 +144,120 @@ if(isset($_POST['send'])){
 </footer>
  <div class="footer-bottom">
     <p><b>© 2026 My Shop. The Sweet Corner.</b></p> </div>
+
+
+
+
+    
+
+.contact-container {
+    max-width: 1100px;
+    margin: 60px auto;
+    display: flex;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+
+.contact-info {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.contact-info h2,
+.contact-info h3 {
+    margin-bottom: 15px;
+    color:    rgb(116, 39, 39);
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info ul {
+    list-style: none;
+}
+
+.contact-info li {
+    margin-bottom: 8px;
+}
+
+.contact-info span {
+    color:   rgb(116, 39, 39);
+}
+
+
+.contact-form {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    color:   rgb(116, 39, 39);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color:  rgb(151, 145, 145);
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background:   rgb(116, 39, 39);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background:  rgb(116, 39, 39);
+}
+
+
+.map-section {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.map-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:    black;
+}
+
+.map-container {
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 
     
 </body>
